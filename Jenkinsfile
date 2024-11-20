@@ -16,7 +16,6 @@ pipeline {
                         echo 'Le fichier index.html existe.'
                     } else {
                         error('Erreur : Le fichier index.html est manquant.')
-                        exit /b 1
                     }
                 }
             }
